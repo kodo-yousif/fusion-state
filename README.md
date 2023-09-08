@@ -1,2 +1,2 @@
 # fusion-state
-new react library thst has minimum boilerplate
+new react library that has minimum boilerplate
