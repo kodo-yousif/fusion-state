@@ -2,10 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { useListener } from './fusion-state'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  useListener('kodo')
   return (
     <>
       <div>
